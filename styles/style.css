@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.center {
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 140px;
+}
+.head-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.843),white), url("../images/Banner\ Image.png");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.head-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-subtitle {
+    font-size: 32px;
+    color: white;
+}
+.head-title {
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+}
