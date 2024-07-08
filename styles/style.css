@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -23,6 +25,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.head-banner:hover {
+    opacity: 0.9;
 }
 .head-content {
     display: flex;
@@ -41,4 +46,99 @@
     font-weight: 900;
     color: white;
     line-height: 90px;
+}
+/* section 2 */
+.section2-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 400px;
+}
+.section2 {
+    max-width: ;width: 800px;
+    max-height: 805px;
+}
+.section2-head {
+    font-size: 88px;
+    font-weight: bold;
+    font-family: Inter; 
+    color: red;
+    margin-bottom: 48px;
+}
+.section2-subtitle {
+    margin-bottom: 16px;
+    color: red;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.section2-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Inter;
+    margin-bottom: 48px;
+}
+.section2-img {
+    width: 800px;
+    height: 500px;
+    background-image: url("../images/New\ Year\ Photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section2-img:hover {
+    opacity: 0.9;
+}
+.section3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 140px 120px;
+}
+.section3 {
+    max-width: 1320px;
+    max-height: 600px;
+    background-image: linear-gradient(to right, black,rgb(255, 255, 255)),url("../images/midnight.png");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.sec3-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.sec3-title {
+    font-family: Merriweather;
+    font-size: 64px;
+    color: white;
+    width: 642px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    margin-left: 126px;
+}
+.sec3-txt {
+    width: 697px;
+    font-family: Inter;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 48px;
+    margin-left: 126px;
+}
+.sec3-btn {
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 158px;
+}
+.right-content > img {
+    width: 320px;
+    margin: 68px 138px 68px 0px;
 }
