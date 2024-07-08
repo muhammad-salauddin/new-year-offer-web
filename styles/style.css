@@ -222,8 +222,12 @@
     color: #070211;
     margin-bottom: 43px;
 }
-.sec5-middle > img {
+
+.sec5-img {
     width: 365px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
 }
 .sec5-title2 {
     color: red;
