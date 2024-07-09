@@ -450,6 +450,7 @@ hr {
     margin-bottom: 50px;
     width: 1320px;
     background: #000;color: rgba(255, 255, 255, 0.15);
+    opacity: 0.15;
 }
 .footer-icons {
     width: 328px;
