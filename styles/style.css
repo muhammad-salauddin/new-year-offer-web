@@ -236,3 +236,58 @@
     font-weight: bold;
     margin-bottom: 16px;
 }
+/* section 6 */
+.sec6-txt-container { 
+    width: 1068px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.sec6-subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+}
+.sec6-title {
+    color: #FF0000;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.sec6-title-black {
+    color: #070211;
+}
+.sec6-txt {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 64px;
+}
+.sec6-img-container {
+    width: 1320px;
+    height: 662px;
+    margin: 0 auto;
+}
+.sec6-bg-bottom {
+    height: 229px;
+    width: 1320px; 
+    background-image: url("../images/Rectangle\ 2.png");
+    position: relative;
+    top: 433px; 
+}
+.sec6-img-2 {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    bottom: 200px;
+}
+.sec6-img2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
