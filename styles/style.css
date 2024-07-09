@@ -339,6 +339,11 @@
     width: 424px;
     height: 450px;
 }
+.sec7-img:hover {
+    opacity: 0.8;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.362);
+}
 .sec8 {
     max-width: 1320px;
     max-height: 616px;
@@ -403,7 +408,7 @@
     cursor: pointer;
 }
 .subscribe:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* Footer */
@@ -456,4 +461,7 @@ hr {
     width: 1320px;
     display: flex;
     justify-content: space-between;
+}
+.footer-txt-top-right {
+    line-height: 38px;
 }
