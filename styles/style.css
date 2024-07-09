@@ -393,6 +393,9 @@
     padding: 25px 30px;
     border: none;
 }
+input:focus{
+    outline: none;
+    }
 .subscribe {
     background-color: red;
     width: 210px;
@@ -410,7 +413,7 @@
     cursor: pointer;
 }
 .subscribe:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* Footer */
